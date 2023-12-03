@@ -55,8 +55,9 @@
             display: flex;
             flex-wrap: wrap;
             align-items: flex-start;
-            margin-left: -10px;
+            margin-left: 2%; /* Adjust this percentage based on your design */
         }
+
 
         .card-section label,
         .card-section select {
@@ -75,15 +76,16 @@
         }
 
         .button-container {
-            width: 200px; 
+            width: 80%; /* Adjust this percentage based on your design */
+            max-width: 400px; /* Set a maximum width if needed */
             display: flex;
             flex-direction: row;
             gap: 7px;
-
-            margin-top: -300px; 
-            margin-left: 682px;
-
+            margin-top: -26%; /* Adjust this percentage based on your design */
+            margin-left: 72%; /* Adjust this percentage based on your design */
+            transform: translateX(-50%); /* Center the container horizontally */
         }
+
 
         .button.active {
             background-color:#3498db; 
@@ -122,26 +124,31 @@
         }
 
         .card-word-container {
-            margin-top: -520px; 
-            margin-left: 700px;   
-            font-size: 24px         
+            margin-top: -45%; /* Adjust this percentage based on your design */
+            margin-left: 66%; /* Adjust this percentage based on your design */
+            transform: translate(-50%, 0); /* Center the container horizontally */
+            font-size: 2vw; /* Adjust font size based on the viewport width */
         }
+
 
 
         .new-card-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center; 
-            margin-top: -250px; 
-            margin-left: 525px;
-        }
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        margin-top: -20%; /* Adjust this percentage based on your design */
+        margin-left: 58%; /* Adjust this percentage based on your design */
+        transform: translate(-50%, 0); /* Center the container horizontally */
+    }
+
 
         .new-card-word-container {
-            margin-top: -250px; 
-            margin-left: 640px;
-            font-size: 24px;
+            margin-top: -20%; /* Adjust this percentage based on your design */
+            margin-left: 50%; /* Adjust this percentage based on your design */
+            font-size: 2vw; /* Adjust font size based on the viewport width */
             text-align: center;
         }
+
 
         .card-image {
             max-width: 100px;
@@ -153,7 +160,7 @@
                 max-width: 100px; /* Adjust the maximum width as per your preference */
                 height: auto; /* Automatically adjust the height to maintain aspect ratio */
                 margin: 10px;
-            }
+        }
 
             
     </style>
